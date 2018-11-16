@@ -1,7 +1,7 @@
 <?php
 
 /**
-require_once 'c:\vendor\autoload.php';
+* require_once 'c:\vendor\autoload.php';
 * Linebot
 */
 class Linebot {
