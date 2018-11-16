@@ -8,52 +8,18 @@ $_msg = $arrJson['events'][0]['message']['text'];
 $arrHeader = array();
 $arrHeader[] = "Content-Type: application/json";
 $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
-$filename = 'text.txt';
-if (file_exists($filename)) {
-  $myfile = fopen('text.txt', "w+") or die("Unable to open file!");
-  fwrite($myfile, $_msg);
-  fclose($myfile);
-} else {
-  $myfile = fopen('text.txt', "x+") or die("Unable to open file!");
-  fwrite($myfile, $_msg);
-  fclose($myfile);
-}
+
 if($arrJson['events'][0]['message']['text'] == "สวัสดี"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "สวัสดี ID ของคุณคือ ".$arrJson['events'][0]['source']['userId'];
-}else if($arrJson['events'][0]['message']['text'] == "Turnleft"){
+}else if($arrJson['events'][0]['message']['text'] == "join group"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "Bot : เลี้ยวซ้าย";
-}else if($arrJson['events'][0]['message']['text'] == "Turnright"){
-  $arrPostData = array();
-  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
-  $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "Bot : เลี้ยวขวา";
-}else if($arrJson['events'][0]['message']['text'] == "Forback"){
-  $arrPostData = array();
-  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
-  $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "Bot : ถอยหลัง";
-}else if($arrJson['events'][0]['message']['text'] == "Forward"){
-  $arrPostData = array();
-  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
-  $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "Bot : ตรงไปข้างหน้า";
-}else if($arrJson['events'][0]['message']['text'] == "Stop"){
-  $arrPostData = array();
-  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
-  $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "Bot : หยุด";
-}else{
-  $arrPostData = array();
-  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
-  $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "Bot :ไม่เข้าใจคำสั่ง";
-}
+}else{}
  
  
 $ch = curl_init();
