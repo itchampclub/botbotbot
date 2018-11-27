@@ -89,35 +89,44 @@ $reply = array(
 'replyToken' => $replyToken,														
 'messages' => array(
 array(
-	
     'type' => 'flex',
     'altText' => 'Flex',
     'contents' => array(
+
+	    
   'type' =>  'bubble',
   'hero' => array(
     'type' =>  'image',
     'url' =>  'https://i.ytimg.com/vi/taNCBWzkgWs/maxresdefault.jpg',
     'size' =>  'full',
-    'aspectRatio' =>  '1:1',
+    'aspectRatio' =>  '20:13',
     'aspectMode' =>  'cover'
   ),
+	
+	    
 	    
   'body' => array(
     'type' =>  'box',
     'layout' =>  'vertical',
     'spacing' =>  'md',
     'contents' => array(
+	    
+	    
+	    
       array(
         'type' =>  'text',
         'text' =>  'เลขเด็ดงวด 1 ธันวาคม 61',
         'size' =>  'xl',
         'weight' =>  'bold'
       ),
+	    
       array(
         'type' =>  'box',
         'layout' =>  'vertical',
         'spacing' =>  'sm',
         'contents' => array(
+		
+		
           array(
             'type' =>  'box',
             'layout' =>  'baseline',
@@ -197,7 +206,8 @@ array(
                 'color' =>  '#000000'
               )
             )
-          )	
+          )
+		
         )
       ),
       array(
@@ -207,6 +217,7 @@ array(
         'color' =>  '#aaaaaa',
         'size' =>  'xxs'
       )
+	    
     )
   ),
 	    
@@ -220,9 +231,8 @@ array(
       )
     )
   )
-)
 
-	                                                                                                                        )
+	                                                )
 							)
 							)	
 							);
