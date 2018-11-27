@@ -116,7 +116,7 @@ array(
     'contents' => array(
       array(
         'type' =>  'text',
-        'text' =>  'Brown's Burger',
+        'text' =>  'Browns Burger',
         'size' =>  'xl',
         'weight' =>  'bold'
       ),
