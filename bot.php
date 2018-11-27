@@ -84,13 +84,18 @@ else if($message['type']=='text')
 							);
 		$leave = true;
         }
-	else if(strpos($incomingMsg,"flexmsg") !== false)
+	else if(strpos($incomingMsg,"msg") !== false)
 		{
 		$reply = array(
 								'replyToken' => $replyToken,														
 								'messages' => array(
 									array(
-	  
+
+
+
+    'type' => 'flex',
+    'altText' => 'Flex',
+    'contents' => array(
     'type' =>  'bubble',
     'body' =>  array(
       'type' =>  'box',
@@ -106,7 +111,7 @@ else if($message['type']=='text')
 	     )
                           )
                     )	
-	             
+	             )
 							)
 							)	
 							);
