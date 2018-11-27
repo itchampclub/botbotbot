@@ -97,7 +97,7 @@ else if($message['type']=='text')
     'body' =>  (
       'type' =>  'box',
       'layout' =>  'vertical',
-      'contents' =>  [
+      'contents' =>  {
         (
           'type' =>  'text',
           'text' =>  'hello'
@@ -106,7 +106,7 @@ else if($message['type']=='text')
           'type' =>  'text',
           'text' =>  'world'
         )
-      ]
+      }
     )
   )
 )
