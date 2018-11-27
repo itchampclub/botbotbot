@@ -92,10 +92,7 @@ else if($message['type']=='text')
 								'messages' => array(
 									array(
 
-    'type' =>  'flex',
-    'altText' =>  'This is a Flex message',
-    'contents' =>  (
-(
+
   'type' =>  'bubble',
   'header' =>  (
     'type' =>  'box',
@@ -139,8 +136,6 @@ else if($message['type']=='text')
   )
 )
 
-    )
-)
 										)
 								
 							);
