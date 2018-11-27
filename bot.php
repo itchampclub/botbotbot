@@ -96,13 +96,13 @@ array(
   'type' =>  'bubble',
   'hero' => array(
     'type' =>  'image',
-    'url' =>  'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_2_restaurant.png',
+    'url' =>  'https://i.ytimg.com/vi/taNCBWzkgWs/maxresdefault.jpg',
     'size' =>  'full',
     'aspectRatio' =>  '20:13',
     'aspectMode' =>  'cover',
     'action' => array(
       'type' =>  'uri',
-      'uri' =>  'https://linecorp.com'
+      'uri' =>  'https://i.ytimg.com/vi/taNCBWzkgWs/maxresdefault.jpg'
     )
   ),
   'body' => array(
@@ -111,7 +111,7 @@ array(
     'spacing' =>  'md',
     'action' => array(
       'type' =>  'uri',
-      'uri' =>  'https://linecorp.com'
+      'uri' =>  '#'
     ),
     'contents' => array(
       array(
@@ -199,7 +199,7 @@ array(
         'action' => array(
           'type' =>  'uri',
           'label' =>  'Add to Cart',
-          'uri' =>  'https://linecorp.com'
+          'uri' =>  '#'
         )
       )
     )
