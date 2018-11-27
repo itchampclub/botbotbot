@@ -92,43 +92,43 @@ else if($message['type']=='text')
 									array(
   'type' =>  'flex',
   'altText' =>  'this is a flex message',
-  'contents' =>  (
+  'contents' =>  array(
   'type' =>  'bubble',
-  'header' =>  (
+  'header' =>  array(
     'type' =>  'box',
     'layout' =>  'vertical',
-    'contents' =>  (
-      (
+    'contents' =>  array(
+      array(
         'type' =>  'text',
         'text' =>  'Header text'
       )
     )
   ),
-  'hero' =>  (
+  'hero' =>  array(
     'type' =>  'image',
     'url' =>  'https://www.linefriends.com/img/img_sec.jpg'
   ),
-  'body' =>  (
+  'body' =>  array(
     'type' =>  'box',
     'layout' =>  'vertical',
-    'contents' =>  (
-      (
+    'contents' =>  array(
+      array(
         'type' =>  'text',
         'text' =>  'Body text'
       )
     )
   ),
-  'footer' =>  (
+  'footer' =>  array(
     'type' =>  'box',
     'layout' =>  'vertical',
-    'contents' =>  (
-      (
+    'contents' =>  array(
+      array(
         'type' =>  'text',
         'text' =>  'Footer text'
       )
     )
   ),
-  'styles' =>  (
+  'styles' =>  array(
     'comment' =>  'See the example of a bubble style object'
   )
 )									
