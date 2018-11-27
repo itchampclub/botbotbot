@@ -141,9 +141,9 @@ array(
               array(
                 'type' =>  'text',
                 'text' =>  '451879',
-                'weight' =>  'bold',
+                'size' =>  'sm',
                 'align' =>  'end',
-                'color' =>  '#000000'
+                'color' =>  '#aaaaaa'
               )
             )
           ),	
@@ -161,9 +161,9 @@ array(
               array(
                 'type' =>  'text',
                 'text' =>  '187 462',
-                'weight' =>  'bold',
+                'size' =>  'sm',
                 'align' =>  'end',
-                'color' =>  '#0000000'
+                'color' =>  '#aaaaaa'
               )
             )
           ),	
@@ -181,9 +181,9 @@ array(
               array(
                 'type' =>  'text',
                 'text' =>  '284 519',
-                'weight' =>  'bold',
+                'size' =>  'sm',
                 'align' =>  'end',
-                'color' =>  '#000000'
+                'color' =>  '#aaaaaa'
               )
             )
           ),
@@ -201,9 +201,9 @@ array(
               array(
                 'type' =>  'text',
                 'text' =>  '52',
-                'weight' =>  'bold',
+                'size' =>  'sm',
                 'align' =>  'end',
-                'color' =>  '#000000'
+                'color' =>  '#aaaaaa'
               )
             )
           )
