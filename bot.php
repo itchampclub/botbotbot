@@ -141,7 +141,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  146587,
+                'text' =>  '146587',
                 'size' =>  'sm',
                 'weight' =>  'bold',
                 'align' =>  'end',
