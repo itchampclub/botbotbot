@@ -93,41 +93,46 @@ else if($message['type']=='text')
   'type' =>  'flex',
   'altText' =>  'this is a flex message',
   'contents' =>  array(
-  'type' =>  'bubble',
-  'hero' =>  array(
-    'type' =>  'image',
-    'url' =>  'https => //scdn.line-apps.com/n/channel_devcenter/img/fx/01_2_restaurant.png',
-    'size' =>  'full',
-    'aspectRatio' =>  '20 => 13',
-    'aspectMode' =>  'cover'
-  ),
-  'footer' =>  array(
-    'type' =>  'box',
-    'layout' =>  'vertical',
-    'contents' =>  array(
+  'type' =>   'bubble',
+  'header' =>   array(
+    'type' =>   'box',
+    'layout' =>   'vertical',
+    'contents' =>   array(
       array(
-        'type' =>  'spacer',
-        'size' =>  'xxl'
-      ),
-      array(
-        'type' =>  'button',
-        'style' =>  'primary',
-        'color' =>  '#905c44',
-        'action' =>  array(
-          'type' =>  'uri',
-          'label' =>  'Add to Cart',
-          'uri' =>  'https => //linecorp.com'
-        )
-      ),
-      array(
-        'type' =>  'spacer',
-        'size' =>  'xxl'
+        'type' =>   'text',
+        'text' =>   'Header text'
       )
     )
+  ),
+  'hero' =>   array(
+    'type' =>   'image',
+    'url' =>   'https://cdn-images-1.medium.com/max/400/1*OL8fHXFcNqYkrTBJBdr3yw.jpeg'
+  ),
+  'body' =>   array(
+    'type' =>   'box',
+    'layout' =>   'vertical',
+    'contents' =>   array(
+      array(
+        'type' =>   'text',
+        'text' =>   'Body text'
+      )
+    )
+  ),
+  'footer' =>   array(
+    'type' =>   'box',
+    'layout' =>   'vertical',
+    'contents' =>   array(
+      array(
+        'type' =>   'text',
+        'text' =>   'Footer text'
+      )
+    )
+  ),
+  'styles' =>   (
+    'comment' =>   'See the example of a bubble style object'
   )
 )
-)
-									
+)									
 
 							)	
 							);
