@@ -86,58 +86,33 @@ else if($message['type']=='text')
         }
 	else if(strpos($incomingMsg,"flexmsg") !== false)
 		{
-		$replyText = 'ตารางสอบวิชา 14215 คือ วันอาทิตย์ ที่ 27 มกราคม 2561 เวลา 13.30-16.30 น.'.$userData['displayName'];
 		$reply = array(
 								'replyToken' => $replyToken,														
 								'messages' => array(
 									array(
-
-
-  'type' =>  'bubble',
-  'header' =>  (
-    'type' =>  'box',
-    'layout' =>  'vertical',
-    'contents' =>  
-      (
-        'type' =>  'text',
-        'text' =>  'header'
-      )
-    
-  ),
-  'hero' =>  (
-    'type' =>  'image',
-    'url' =>  'https => //www.linefriends.com/img/img_sec.jpg',
-    'size' =>  'full',
-    'aspectRatio' =>  '2 => 1'
-  ),
-  'body' =>  (
-    'type' =>  'box',
-    'layout' =>  'vertical',
-    'contents' =>  
-      (
-        'type' =>  'text',
-        'text' =>  'body'
-      ),
-	  (
-        'type' =>  'text',
-        'text' =>  'body'
-      )
-    
-  ),
-  'footer' =>  (
-    'type' =>  'box',
-    'layout' =>  'vertical',
-    'contents' =>  
-      (
-        'type' =>  'text',
-        'text' =>  'footer'
-      )
-    
+  'type' =>  'flex',
+  'altText' =>  'this is a flex message',
+  'contents' =>  (
+    'type' =>  'bubble',
+    'body' =>  (
+      'type' =>  'box',
+      'layout' =>  'vertical',
+      'contents' =>  [
+        (
+          'type' =>  'text',
+          'text' =>  'hello'
+        ),
+        (
+          'type' =>  'text',
+          'text' =>  'world'
+        )
+      ]
+    )
   )
 )
 
-										)
-								
+
+							)	
 							);
 	       }
 	else if(strpos($incomingMsg,"groupid") !== false)
