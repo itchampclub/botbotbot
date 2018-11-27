@@ -86,7 +86,6 @@ else if($message['type']=='text')
         }
 	else if(strpos($incomingMsg,"msg") !== false)
 		{
-		$n6 = mt_rand(100000,999999);
 $reply = array(
 'replyToken' => $replyToken,														
 'messages' => array(
@@ -142,7 +141,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  $n6'',
+                'text' =>  146587,
                 'size' =>  'sm',
                 'weight' =>  'bold',
                 'align' =>  'end',
