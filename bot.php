@@ -97,12 +97,12 @@ else if($message['type']=='text')
   'header' =>  (
     'type' =>  'box',
     'layout' =>  'vertical',
-    'contents' =>  [
+    'contents' =>  ['
       (
         'type' =>  'text',
         'text' =>  'header'
       )
-    ]
+    ']
   ),
   'hero' =>  (
     'type' =>  'image',
@@ -113,7 +113,7 @@ else if($message['type']=='text')
   'body' =>  (
     'type' =>  'box',
     'layout' =>  'vertical',
-    'contents' =>  [
+    'contents' =>  ['
       (
         'type' =>  'text',
         'text' =>  'body'
@@ -122,17 +122,17 @@ else if($message['type']=='text')
         'type' =>  'text',
         'text' =>  'body'
       )
-    ]
+    ']
   ),
   'footer' =>  (
     'type' =>  'box',
     'layout' =>  'vertical',
-    'contents' =>  [
+    'contents' =>  ['
       (
         'type' =>  'text',
         'text' =>  'footer'
       )
-    ]
+    ']
   )
 )
 
