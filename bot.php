@@ -90,9 +90,6 @@ else if($message['type']=='text')
 								'replyToken' => $replyToken,														
 								'messages' => array(
 									array(
-  'type' =>  'flex',
-  'altText' =>  'this is a flex message',
-  'contents' =>  array(
   'type' =>  'bubble',
   'header' =>  array(
     'type' =>  'box',
@@ -132,7 +129,7 @@ else if($message['type']=='text')
     'comment' =>  'See the example of a bubble style object'
   )
 )									
-)
+
 							)	
 							);
 	       }
