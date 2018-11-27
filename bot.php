@@ -106,7 +106,7 @@ else if($message['type']=='text')
   ),
   'hero' =>   array(
     'type' =>   'image',
-    'url' =>   'https://cdn-images-1.medium.com/max/400/1*OL8fHXFcNqYkrTBJBdr3yw.jpeg'
+    'url' =>   'https://www.linefriends.com/img/img_sec.jpg'
   ),
   'body' =>   array(
     'type' =>   'box',
