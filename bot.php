@@ -101,6 +101,10 @@ array(
     'size' =>  'full',
     'aspectRatio' =>  '20:13',
     'aspectMode' =>  'cover'
+	      'action' => array(
+      'type' =>  'postback',
+      'label' =>  'Thanks'
+    )
   ),
 	
 	    
