@@ -92,17 +92,17 @@ else if($message['type']=='text')
 									array(
   'type' =>  'flex',
   'altText' =>  'this is a flex message',
-  'contents' =>  (
+  'contents' =>  array(
     'type' =>  'bubble',
-    'body' =>  (
+    'body' =>  array(
       'type' =>  'box',
       'layout' =>  'vertical',
-      'contents' =>  (
-        (
+      'contents' =>  array(
+        array(
           'type' =>  'text',
           'text' =>  'hello'
         ),
-        (
+        array(
           'type' =>  'text',
           'text' =>  'world'
         )
