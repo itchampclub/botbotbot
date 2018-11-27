@@ -16,7 +16,7 @@ $replyToken 	= $event['replyToken'];
 $timestamp		= $event['timestamp'];
 $message 		= $event['message'];
 $messageid 		= $message['id'];
-$n6                     = rand(000000, 999999);
+$n6                     = rand(0, 999999);
 
 
 
@@ -145,7 +145,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  'ถูกแน่นอน',
+                'text' =>  '555',
                 'size' =>  'sm',
                 'align' =>  'end',
                 'color' =>  '#aaaaaa'
@@ -172,7 +172,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  'แม่นๆ',
+                'text' =>  '555',
                 'size' =>  'sm',
                 'align' =>  'end',
                 'color' =>  '#aaaaaa'
