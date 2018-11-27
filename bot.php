@@ -97,8 +97,12 @@ array(
     'type' =>  'image',
     'url' =>  'https://i.ytimg.com/vi/taNCBWzkgWs/maxresdefault.jpg',
     'size' =>  'full',
-    'aspectRatio' =>  '14:9',
+    'aspectRatio' =>  '1:1',
     'aspectMode' =>  'cover'
+    'action' => array(
+      'type' =>  'postback',
+      'label' =>  'Thanks'
+    )
   ),
   'body' => array(
     'type' =>  'box',
