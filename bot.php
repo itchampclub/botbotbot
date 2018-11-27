@@ -210,7 +210,7 @@ else if($message['type']=='text')
     )
   )
 )	
-	             )
+	             
 							)
 							)	
 							);
