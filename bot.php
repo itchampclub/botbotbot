@@ -16,7 +16,7 @@ $replyToken 	= $event['replyToken'];
 $timestamp		= $event['timestamp'];
 $message 		= $event['message'];
 $messageid 		= $message['id'];
-
+$n6                     = rand(000000, 999999);
 
 
 
@@ -138,7 +138,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  '123 456 789',
+                'text' =>   $n6,
                 'weight' =>  'bold',
                 'margin' =>  'sm',
                 'flex' => 0
