@@ -131,7 +131,6 @@ else if($message['type']=='text')
   'styles' =>   (
     'comment' =>   'See the example of a bubble style object'
   )
-)
 )									
 
 							)	
