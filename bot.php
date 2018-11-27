@@ -92,44 +92,44 @@ else if($message['type']=='text')
 									array(
   'type' =>  'flex',
   'altText' =>  'this is a flex message',
-  'contents' =>  array(
-  'type' =>   'bubble',
-  'header' =>   array(
-    'type' =>   'box',
-    'layout' =>   'vertical',
-    'contents' =>   array(
-      array(
-        'type' =>   'text',
-        'text' =>   'Header text'
+  'contents' =>  (
+  'type' =>  'bubble',
+  'header' =>  (
+    'type' =>  'box',
+    'layout' =>  'vertical',
+    'contents' =>  (
+      (
+        'type' =>  'text',
+        'text' =>  'Header text'
       )
     )
   ),
-  'hero' =>   array(
-    'type' =>   'image',
-    'url' =>   'https://www.linefriends.com/img/img_sec.jpg'
+  'hero' =>  (
+    'type' =>  'image',
+    'url' =>  'https://www.linefriends.com/img/img_sec.jpg'
   ),
-  'body' =>   array(
-    'type' =>   'box',
-    'layout' =>   'vertical',
-    'contents' =>   array(
-      array(
-        'type' =>   'text',
-        'text' =>   'Body text'
+  'body' =>  (
+    'type' =>  'box',
+    'layout' =>  'vertical',
+    'contents' =>  (
+      (
+        'type' =>  'text',
+        'text' =>  'Body text'
       )
     )
   ),
-  'footer' =>   array(
-    'type' =>   'box',
-    'layout' =>   'vertical',
-    'contents' =>   array(
-      array(
-        'type' =>   'text',
-        'text' =>   'Footer text'
+  'footer' =>  (
+    'type' =>  'box',
+    'layout' =>  'vertical',
+    'contents' =>  (
+      (
+        'type' =>  'text',
+        'text' =>  'Footer text'
       )
     )
   ),
-  'styles' =>   (
-    'comment' =>   'See the example of a bubble style object'
+  'styles' =>  (
+    'comment' =>  'See the example of a bubble style object'
   )
 )									
 
