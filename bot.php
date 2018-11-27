@@ -16,7 +16,6 @@ $replyToken 	= $event['replyToken'];
 $timestamp		= $event['timestamp'];
 $message 		= $event['message'];
 $messageid 		= $message['id'];
-$n6                     = rand(0, 999999);
 
 
 
@@ -131,14 +130,14 @@ array(
             'contents' => array(
               array(
                 'type' =>  'text',
-                'text' =>  '3 ตัวบน =',
+                'text' =>  'รางวัลที่ 1 =',
                 'weight' =>  'bold',
                 'margin' =>  'sm',
                 'flex' => 0
               ),
               array(
                 'type' =>  'text',
-                'text' =>   $n6,
+                'text' =>   '123456',
                 'weight' =>  'bold',
                 'margin' =>  'sm',
                 'flex' => 0
@@ -165,7 +164,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  '12 45 78',
+                'text' =>  '12',
                 'weight' =>  'bold',
                 'margin' =>  'sm',
                 'flex' => 0
