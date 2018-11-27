@@ -70,7 +70,7 @@ else if($message['type']=='text')
 {
 	$incomingMsg = strtolower($message['text']);
 	$n69 = mt_rand(100000,999999);
-	if(strpos($incomingMsg,"love") !== false)
+	if(strpos($incomingMsg,"999") !== false)
         {
 	        $replyText = '';
 		$reply = array(
@@ -84,7 +84,7 @@ else if($message['type']=='text')
 							);
 		$leave = true;
         }
-	else if(strpos($incomingMsg,"msg") !== false)
+	else if(strpos($incomingMsg,"ขอหวย") !== false)
 		{
 $reply = array(
 'replyToken' => $replyToken,														
