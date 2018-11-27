@@ -90,9 +90,6 @@ else if($message['type']=='text')
 								'replyToken' => $replyToken,														
 								'messages' => array(
 									array(
-  'type' =>  'flex',
-  'altText' =>  'this is a flex message',
-  'contents' =>  array(
 	  
     'type' =>  'bubble',
     'body' =>  array(
@@ -109,7 +106,7 @@ else if($message['type']=='text')
 	     )
                           )
                     )	
-	             )
+	             
 							)
 							)	
 							);
