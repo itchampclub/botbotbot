@@ -102,7 +102,7 @@ array(
     'aspectMode' =>  'cover',
     'action' => array(
       'type' =>  'uri',
-      'uri' =>  'https://i.ytimg.com/vi/taNCBWzkgWs/maxresdefault.jpg'
+      'uri' =>  'https://i.ytimg.com/'
     )
   ),
   'body' => array(
@@ -111,7 +111,7 @@ array(
     'spacing' =>  'md',
     'action' => array(
       'type' =>  'uri',
-      'uri' =>  '#'
+      'uri' =>  'https://i.ytimg.com/'
     ),
     'contents' => array(
       array(
@@ -199,7 +199,7 @@ array(
         'action' => array(
           'type' =>  'uri',
           'label' =>  'Add to Cart',
-          'uri' =>  '#'
+          'uri' =>  'https://i.ytimg.com/'
         )
       )
     )
