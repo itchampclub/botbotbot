@@ -140,7 +140,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  $n6,
+                'text' =>  '495123',
                 'size' =>  'sm',
                 'weight' =>  'bold',
                 'align' =>  'end',
