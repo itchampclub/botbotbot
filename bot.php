@@ -86,66 +86,61 @@ else if($message['type']=='text')
         }
 	else if(strpos($incomingMsg,"msg") !== false)
 		{
-		$reply = array(
-								'replyToken' => $replyToken,														
-								'messages' => array(
-									array(
-
-
-
+$reply = array(
+'replyToken' => $replyToken,														
+'messages' => array(
+array(
     'type' => 'flex',
     'altText' => 'Flex',
     'contents' => array(
-
   'type' =>  'bubble',
-  'hero' =>  array(
-
+  'hero' => (
     'type' =>  'image',
     'url' =>  'https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_2_restaurant.png',
     'size' =>  'full',
-    'aspectRatio' =>  '20 => 13',
+    'aspectRatio' =>  '20:13',
     'aspectMode' =>  'cover',
-    'action' =>  array(
+    'action' => (
       'type' =>  'uri',
       'uri' =>  'https://linecorp.com'
     )
   ),
-  'body' =>  array(
+  'body' => (
     'type' =>  'box',
     'layout' =>  'vertical',
     'spacing' =>  'md',
-    'action' =>  array(
+    'action' => (
       'type' =>  'uri',
       'uri' =>  'https://linecorp.com'
     ),
-    'contents' =>  array(
-      array(
+    'contents' => (
+      (
         'type' =>  'text',
         'text' =>  'Brown's Burger',
         'size' =>  'xl',
         'weight' =>  'bold'
       ),
-      array(
+      (
         'type' =>  'box',
         'layout' =>  'vertical',
         'spacing' =>  'sm',
-        'contents' =>  array(
-          array(
+        'contents' => (
+          (
             'type' =>  'box',
             'layout' =>  'baseline',
-            'contents' =>  array(
-              array(
+            'contents' => (
+              (
                 'type' =>  'icon',
                 'url' =>  'https://scdn.line-apps.com/n/channel_devcenter/img/fx/restaurant_regular_32.png'
               ),
-              array(
+              (
                 'type' =>  'text',
                 'text' =>  '$10.5',
                 'weight' =>  'bold',
                 'margin' =>  'sm',
-                'flex' =>  0
+                'flex' => 0
               ),
-              array(
+              (
                 'type' =>  'text',
                 'text' =>  '400kcl',
                 'size' =>  'sm',
@@ -154,22 +149,22 @@ else if($message['type']=='text')
               )
             )
           ),
-          array(
+          (
             'type' =>  'box',
             'layout' =>  'baseline',
-            'contents' =>  array(
-              array(
+            'contents' => (
+              (
                 'type' =>  'icon',
                 'url' =>  'https://scdn.line-apps.com/n/channel_devcenter/img/fx/restaurant_large_32.png'
               ),
-              array(
+              (
                 'type' =>  'text',
                 'text' =>  '$15.5',
                 'weight' =>  'bold',
                 'margin' =>  'sm',
-                'flex' =>  0
+                'flex' => 0
               ),
-              array(
+              (
                 'type' =>  'text',
                 'text' =>  '550kcl',
                 'size' =>  'sm',
@@ -180,28 +175,28 @@ else if($message['type']=='text')
           )
         )
       ),
-      array(
+      (
         'type' =>  'text',
         'text' =>  'Sauce, Onions, Pickles, Lettuce & Cheese',
-        'wrap' =>  true,
+        'wrap' => true,
         'color' =>  '#aaaaaa',
         'size' =>  'xxs'
       )
     )
   ),
-  'footer' =>  array(
+  'footer' => (
     'type' =>  'box',
     'layout' =>  'vertical',
-    'contents' =>  array(
-      array(
+    'contents' => (
+      (
         'type' =>  'spacer',
         'size' =>  'xxl'
       ),
-      array(
+      (
         'type' =>  'button',
         'style' =>  'primary',
         'color' =>  '#905c44',
-        'action' =>  array(
+        'action' => (
           'type' =>  'uri',
           'label' =>  'Add to Cart',
           'uri' =>  'https://linecorp.com'
@@ -209,8 +204,9 @@ else if($message['type']=='text')
       )
     )
   )
-)	
-	             
+
+
+	                                                                                                                        )
 							)
 							)	
 							);
