@@ -98,20 +98,12 @@ array(
     'url' =>  'https://i.ytimg.com/vi/taNCBWzkgWs/maxresdefault.jpg',
     'size' =>  'full',
     'aspectRatio' =>  '20:13',
-    'aspectMode' =>  'cover',
-    'action' => array(
-      'type' =>  'uri',
-      'uri' =>  'https://i.ytimg.com/'
-    )
+    'aspectMode' =>  'cover'
   ),
   'body' => array(
     'type' =>  'box',
     'layout' =>  'vertical',
     'spacing' =>  'md',
-    'action' => array(
-      'type' =>  'uri',
-      'uri' =>  'https://i.ytimg.com/'
-    ),
     'contents' => array(
       array(
         'type' =>  'text',
@@ -130,7 +122,7 @@ array(
             'contents' => array(
               array(
                 'type' =>  'text',
-                'text' =>  'รางวัลที่ 1 =',
+                'text' =>  'รางวัลที่ 1',
                 'weight' =>  'bold',
                 'margin' =>  'sm',
                 'flex' => 0
@@ -139,15 +131,8 @@ array(
                 'type' =>  'text',
                 'text' =>   '123456',
                 'weight' =>  'bold',
-                'margin' =>  'sm',
+                'margin' =>  'end',
                 'flex' => 0
-              ),
-              array(
-                'type' =>  'text',
-                'text' =>  '555',
-                'size' =>  'sm',
-                'align' =>  'end',
-                'color' =>  '#aaaaaa'
               )
             )
           ),
@@ -157,7 +142,7 @@ array(
             'contents' => array(
               array(
                 'type' =>  'text',
-                'text' =>  '2 ตัวล่าง =',
+                'text' =>  '2 ตัวล่าง',
                 'weight' =>  'bold',
                 'margin' =>  'sm',
                 'flex' => 0
@@ -166,15 +151,8 @@ array(
                 'type' =>  'text',
                 'text' =>  '12',
                 'weight' =>  'bold',
-                'margin' =>  'sm',
+                'margin' =>  'end',
                 'flex' => 0
-              ),
-              array(
-                'type' =>  'text',
-                'text' =>  '555',
-                'size' =>  'sm',
-                'align' =>  'end',
-                'color' =>  '#aaaaaa'
               )
             )
           )
