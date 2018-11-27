@@ -89,6 +89,7 @@ $reply = array(
 'replyToken' => $replyToken,														
 'messages' => array(
 array(
+	
     'type' => 'flex',
     'altText' => 'Flex',
     'contents' => array(
@@ -104,6 +105,7 @@ array(
       'label' =>  'Thanks'
     )
   ),
+	    
   'body' => array(
     'type' =>  'box',
     'layout' =>  'vertical',
@@ -120,6 +122,7 @@ array(
         'layout' =>  'vertical',
         'spacing' =>  'sm',
         'contents' => array(
+		
           array(
             'type' =>  'box',
             'layout' =>  'baseline',
@@ -140,6 +143,7 @@ array(
               )
             )
           ),
+		
           array(
             'type' =>  'box',
             'layout' =>  'baseline',
@@ -160,6 +164,7 @@ array(
               )
             )
           ),
+		
           array(
             'type' =>  'box',
             'layout' =>  'baseline',
@@ -180,6 +185,7 @@ array(
               )
             )
           ),
+		
           array(
             'type' =>  'box',
             'layout' =>  'baseline',
@@ -200,6 +206,7 @@ array(
               )
             )
           )
+		
         )
       ),
       array(
@@ -211,6 +218,7 @@ array(
       )
     )
   ),
+	    
   'footer' => array(
     'type' =>  'box',
     'layout' =>  'vertical',
@@ -221,7 +229,7 @@ array(
       )
     )
   )
-
+)
 
 	                                                                                                                        )
 							)
