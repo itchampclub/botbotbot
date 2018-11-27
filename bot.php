@@ -100,10 +100,6 @@ array(
     'size' =>  'full',
     'aspectRatio' =>  '1:1',
     'aspectMode' =>  'cover'
-    'action' => array(
-      'type' =>  'postback',
-      'label' =>  'Thanks'
-    )
   ),
 	    
   'body' => array(
@@ -122,7 +118,6 @@ array(
         'layout' =>  'vertical',
         'spacing' =>  'sm',
         'contents' => array(
-		
           array(
             'type' =>  'box',
             'layout' =>  'baseline',
@@ -142,8 +137,7 @@ array(
                 'color' =>  '#000000'
               )
             )
-          ),
-		
+          ),	
           array(
             'type' =>  'box',
             'layout' =>  'baseline',
@@ -163,8 +157,7 @@ array(
                 'color' =>  '#0000000'
               )
             )
-          ),
-		
+          ),	
           array(
             'type' =>  'box',
             'layout' =>  'baseline',
@@ -185,7 +178,6 @@ array(
               )
             )
           ),
-		
           array(
             'type' =>  'box',
             'layout' =>  'baseline',
@@ -205,8 +197,7 @@ array(
                 'color' =>  '#000000'
               )
             )
-          )
-		
+          )	
         )
       ),
       array(
