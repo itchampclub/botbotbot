@@ -135,8 +135,8 @@ array(
                 'type' =>  'text',
                 'text' =>   '123456',
                 'weight' =>  'bold',
-                'margin' =>  'end',
-                'flex' => 0
+                'align' =>  'end',
+                'color' =>  '#ffffff'
               )
             )
           ),
@@ -155,8 +155,8 @@ array(
                 'type' =>  'text',
                 'text' =>   '123 456',
                 'weight' =>  'bold',
-                'margin' =>  'end',
-                'flex' => 0
+                'align' =>  'end',
+                'color' =>  '#ffffff'
               )
             )
           ),
@@ -175,8 +175,8 @@ array(
                 'type' =>  'text',
                 'text' =>   '456 789',
                 'weight' =>  'bold',
-                'margin' =>  'end',
-                'flex' => 0
+                'align' =>  'end',
+                'color' =>  '#ffffff'
               )
             )
           ),
