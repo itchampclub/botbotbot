@@ -90,46 +90,27 @@ else if($message['type']=='text')
 								'replyToken' => $replyToken,														
 								'messages' => array(
 									array(
-  'type' =>  'bubble',
-  'header' =>  array(
-    'type' =>  'box',
-    'layout' =>  'vertical',
-    'contents' =>  array(
-      array(
-        'type' =>  'text',
-        'text' =>  'Header text'
-      )
-    )
-  ),
-  'hero' =>  array(
-    'type' =>  'image',
-    'url' =>  'https://www.linefriends.com/img/img_sec.jpg'
-  ),
-  'body' =>  array(
-    'type' =>  'box',
-    'layout' =>  'vertical',
-    'contents' =>  array(
-      array(
-        'type' =>  'text',
-        'text' =>  'Body text'
-      )
-    )
-  ),
-  'footer' =>  array(
-    'type' =>  'box',
-    'layout' =>  'vertical',
-    'contents' =>  array(
-      array(
-        'type' =>  'text',
-        'text' =>  'Footer text'
-      )
-    )
-  ),
-  'styles' =>  array(
-    'comment' =>  'See the example of a bubble style object'
-  )
-)									
-
+  'type' =>  'flex',
+  'altText' =>  'this is a flex message',
+  'contents' =>  array(
+	  
+    'type' =>  'bubble',
+    'body' =>  array(
+      'type' =>  'box',
+      'layout' =>  'vertical',
+      'contents' =>  array(
+        array(
+          'type' =>  'text',
+          'text' =>  'hello'
+             ),
+        array(
+          'type' =>  'text',
+          'text' =>  'world'
+	     )
+                          )
+                    )	
+	             )
+							)
 							)	
 							);
 	       }
