@@ -133,10 +133,10 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>   '123456',
+                'text' =>  '451879',
                 'weight' =>  'bold',
                 'align' =>  'end',
-                'color' =>  '#ffffff'
+                'color' =>  '#000000'
               )
             )
           ),
@@ -153,10 +153,10 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>   '123 456',
+                'text' =>  '187 462',
                 'weight' =>  'bold',
                 'align' =>  'end',
-                'color' =>  '#ffffff'
+                'color' =>  '#0000000'
               )
             )
           ),
@@ -173,10 +173,10 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>   '456 789',
+                'text' =>  '284 519',
                 'weight' =>  'bold',
                 'align' =>  'end',
-                'color' =>  '#ffffff'
+                'color' =>  '#000000'
               )
             )
           ),
@@ -193,10 +193,10 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  '12',
+                'text' =>  '52',
                 'weight' =>  'bold',
-                'margin' =>  'end',
-                'flex' => 0
+                'align' =>  'end',
+                'color' =>  '#000000'
               )
             )
           )
