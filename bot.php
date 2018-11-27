@@ -51,9 +51,9 @@ if($type == 'memberJoined')
 							);
 
 }
-else if($type == 'join') 
+else if($type == 'follow') 
 {
-	$replyText = 'Hello';
+	$replyText = 'พิมพ์ขอหวย';
 	
 	$reply = array(
 								'replyToken' => $replyToken,														
