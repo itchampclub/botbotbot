@@ -16,7 +16,7 @@ $replyToken 	= $event['replyToken'];
 $timestamp		= $event['timestamp'];
 $message 		= $event['message'];
 $messageid 		= $message['id'];
-$n6 = mt_rand(100000,999999);
+
 
 
 
@@ -69,7 +69,8 @@ else if($type == 'join')
 else if($message['type']=='text')
 {
 	$incomingMsg = strtolower($message['text']);
-	if(strpos($incomingMsg,"botleave") !== false)
+	$n69 = mt_rand(100000,999999);
+	if(strpos($incomingMsg,"love") !== false)
         {
 	        $replyText = '';
 		$reply = array(
@@ -77,7 +78,7 @@ else if($message['type']=='text')
 								'messages' => array(
 									array(
 											'type' => 'text',					
-											'text' => $replyText
+											'text' => $n69
 										)
 								)
 							);
@@ -85,6 +86,7 @@ else if($message['type']=='text')
         }
 	else if(strpos($incomingMsg,"msg") !== false)
 		{
+		$n6 = mt_rand(100000,999999);
 $reply = array(
 'replyToken' => $replyToken,														
 'messages' => array(
@@ -140,7 +142,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  '495123',
+                'text' =>  $n6,
                 'size' =>  'sm',
                 'weight' =>  'bold',
                 'align' =>  'end',
