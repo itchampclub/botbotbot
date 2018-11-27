@@ -97,7 +97,7 @@ array(
     'type' =>  'image',
     'url' =>  'https://i.ytimg.com/vi/taNCBWzkgWs/maxresdefault.jpg',
     'size' =>  'full',
-    'aspectRatio' =>  '20:13',
+    'aspectRatio' =>  '14:9',
     'aspectMode' =>  'cover'
   ),
   'body' => array(
@@ -142,7 +142,47 @@ array(
             'contents' => array(
               array(
                 'type' =>  'text',
-                'text' =>  '2 ตัวล่าง',
+                'text' =>  'เลขหน้า 3 ตัว',
+                'weight' =>  'bold',
+                'margin' =>  'sm',
+                'flex' => 0
+              ),
+              array(
+                'type' =>  'text',
+                'text' =>   '123 456',
+                'weight' =>  'bold',
+                'margin' =>  'end',
+                'flex' => 0
+              )
+            )
+          ),
+          array(
+            'type' =>  'box',
+            'layout' =>  'baseline',
+            'contents' => array(
+              array(
+                'type' =>  'text',
+                'text' =>  'เลขท้าย 3 ตัว',
+                'weight' =>  'bold',
+                'margin' =>  'sm',
+                'flex' => 0
+              ),
+              array(
+                'type' =>  'text',
+                'text' =>   '456 789',
+                'weight' =>  'bold',
+                'margin' =>  'end',
+                'flex' => 0
+              )
+            )
+          ),
+          array(
+            'type' =>  'box',
+            'layout' =>  'baseline',
+            'contents' => array(
+              array(
+                'type' =>  'text',
+                'text' =>  'เลขท้าย 2 ตัว',
                 'weight' =>  'bold',
                 'margin' =>  'sm',
                 'flex' => 0
