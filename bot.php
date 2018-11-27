@@ -90,22 +90,36 @@ else if($message['type']=='text')
 								'replyToken' => $replyToken,														
 								'messages' => array(
 									array(
-  'type' =>  'flex',
-  'altText' =>  'this is a flex message',
-  'contents' =>  array(
-    'type' =>  'bubble',
-    'body' =>  array(
-      'type' =>  'box',
-      'layout' =>  'vertical',
-      'contents' =>  array(
-        array(
-          'type' =>  'text',
-          'text' =>  'hello'
-        ),
-        array(
-          'type' =>  'text',
-          'text' =>  'world'
+
+  'type' =>  'bubble',
+  'hero' =>  array(
+    'type' =>  'image',
+    'url' =>  'https => //scdn.line-apps.com/n/channel_devcenter/img/fx/01_2_restaurant.png',
+    'size' =>  'full',
+    'aspectRatio' =>  '20 => 13',
+    'aspectMode' =>  'cover'
+  ),
+  'footer' =>  array(
+    'type' =>  'box',
+    'layout' =>  'vertical',
+    'contents' =>  array(
+      array(
+        'type' =>  'spacer',
+        'size' =>  'xxl'
+      ),
+      array(
+        'type' =>  'button',
+        'style' =>  'primary',
+        'color' =>  '#905c44',
+        'action' =>  array(
+          'type' =>  'uri',
+          'label' =>  'Add to Cart',
+          'uri' =>  'https => //linecorp.com'
         )
+      ),
+      array(
+        'type' =>  'spacer',
+        'size' =>  'xxl'
       )
     )
   )
