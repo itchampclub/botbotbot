@@ -116,7 +116,7 @@ array(
     'contents' => array(
       array(
         'type' =>  'text',
-        'text' =>  'Browns Burger',
+        'text' =>  'เลขเด็ดงวด 1 ธันวาคม 61',
         'size' =>  'xl',
         'weight' =>  'bold'
       ),
@@ -130,19 +130,22 @@ array(
             'layout' =>  'baseline',
             'contents' => array(
               array(
-                'type' =>  'icon',
-                'url' =>  'https://scdn.line-apps.com/n/channel_devcenter/img/fx/restaurant_regular_32.png'
-              ),
-              array(
                 'type' =>  'text',
-                'text' =>  '$10.5',
+                'text' =>  '3 ตัวบน =',
                 'weight' =>  'bold',
                 'margin' =>  'sm',
                 'flex' => 0
               ),
               array(
                 'type' =>  'text',
-                'text' =>  '400kcl',
+                'text' =>  '123 456 789',
+                'weight' =>  'bold',
+                'margin' =>  'sm',
+                'flex' => 0
+              ),
+              array(
+                'type' =>  'text',
+                'text' =>  'ถูกแน่นอน',
                 'size' =>  'sm',
                 'align' =>  'end',
                 'color' =>  '#aaaaaa'
@@ -154,19 +157,22 @@ array(
             'layout' =>  'baseline',
             'contents' => array(
               array(
-                'type' =>  'icon',
-                'url' =>  'https://scdn.line-apps.com/n/channel_devcenter/img/fx/restaurant_large_32.png'
-              ),
-              array(
                 'type' =>  'text',
-                'text' =>  '$15.5',
+                'text' =>  '2 ตัวล่าง =',
                 'weight' =>  'bold',
                 'margin' =>  'sm',
                 'flex' => 0
               ),
               array(
                 'type' =>  'text',
-                'text' =>  '550kcl',
+                'text' =>  '12 45 78',
+                'weight' =>  'bold',
+                'margin' =>  'sm',
+                'flex' => 0
+              ),
+              array(
+                'type' =>  'text',
+                'text' =>  'แม่นๆ',
                 'size' =>  'sm',
                 'align' =>  'end',
                 'color' =>  '#aaaaaa'
@@ -177,7 +183,7 @@ array(
       ),
       array(
         'type' =>  'text',
-        'text' =>  'Sauce, Onions, Pickles, Lettuce & Cheese',
+        'text' =>  'สำนักอาจารย์คง งงงวยโดนหวยแดก',
         'wrap' => true,
         'color' =>  '#aaaaaa',
         'size' =>  'xxs'
@@ -191,16 +197,6 @@ array(
       array(
         'type' =>  'spacer',
         'size' =>  'xxl'
-      ),
-      array(
-        'type' =>  'button',
-        'style' =>  'primary',
-        'color' =>  '#905c44',
-        'action' => array(
-          'type' =>  'uri',
-          'label' =>  'Add to Cart',
-          'uri' =>  'https://i.ytimg.com/'
-        )
       )
     )
   )
