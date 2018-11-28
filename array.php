@@ -2,7 +2,7 @@ else if($message['type']=='text')
 {
 	$incomingMsg = strtolower($message['text']);
 	$n69 = mt_rand(100000,999999);
-	if(strpos($incomingMsg,"999") !== false)
+	if(strpos($incomingMsg,"6digi") !== false)
         {
 	        $replyText = '';
 		$reply = array(
@@ -16,7 +16,7 @@ else if($message['type']=='text')
 							);
 		$leave = true;
         }
-	else if(strpos($incomingMsg,"ขอหวย") !== false)
+	else if(strpos($incomingMsg,"test6") !== false)
 		{
 $reply = array(
 'replyToken' => $replyToken,														
@@ -101,71 +101,13 @@ array(
                 'color' =>  '#000000'
               )
             )
-          ),	
-          array(
-            'type' =>  'box',
-            'layout' =>  'baseline',
-            'contents' => array(
-              array(
-                'type' =>  'text',
-                'text' =>  'เลขท้าย 3 ตัว',
-                'weight' =>  'bold',
-                'margin' =>  'sm',
-                'flex' => 0
-              ),
-              array(
-                'type' =>  'text',
-                'text' =>  '284 519',
-                'size' =>  'sm',
-                'weight' =>  'bold',
-                'align' =>  'end',
-                'color' =>  '#000000'
-              )
-            )
-          ),
-          array(
-            'type' =>  'box',
-            'layout' =>  'baseline',
-            'contents' => array(
-              array(
-                'type' =>  'text',
-                'text' =>  'เลขท้าย 2 ตัว',
-                'weight' =>  'bold',
-                'margin' =>  'sm',
-                'flex' => 0
-              ),
-              array(
-                'type' =>  'text',
-                'text' =>  '52',
-                'size' =>  'sm',
-                'weight' =>  'bold',
-                'align' =>  'end',
-                'color' =>  '#000000'
-              )
-            )
+          )
           )
 		
         )
-      ),
-      array(
-        'type' =>  'text',
-        'text' =>  'สำนักอาจารย์คง งงงวยโดนหวยแดก',
-        'wrap' => true,
-        'color' =>  '#aaaaaa',
-        'size' =>  'xxs'
       )
-	    
     )
-  ),
-	    
-  'footer' => array(
-    'type' =>  'box',
-    'layout' =>  'vertical',
-    'contents' => array(
-      array(
-        'type' =>  'spacer',
-        'size' =>  'xxl'
-      )
+  )
     )
   )
  
