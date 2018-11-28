@@ -70,6 +70,7 @@ else if($message['type']=='text')
 {
 	$incomingMsg = strtolower($message['text']);
 	$n69 = mt_rand(100000,999999);
+$items = (string)$n69;
 	if(strpos($incomingMsg,"999") !== false)
         {
 	        $replyText = '';
@@ -78,7 +79,7 @@ else if($message['type']=='text')
 								'messages' => array(
 									array(
 											'type' => 'text',					
-											'text' => $n69
+											'text' => $items
 										)
 								)
 							);
@@ -141,7 +142,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  '146587',
+                'text' =>  $items,
                 'size' =>  'sm',
                 'weight' =>  'bold',
                 'align' =>  'end',
