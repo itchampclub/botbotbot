@@ -30,7 +30,7 @@ array(
   'type' =>  'bubble',
   'hero' => array(
     'type' =>  'image',
-    'url' =>  'https://i.ytimg.com/vi/taNCBWzkgWs/maxresdefault.jpg',
+    'url' =>  'https://i.ytimg.com/vi/taNCBWs/maxresdefault.jpg',
     'size' =>  'full',
     'aspectRatio' =>  '20:13',
     'aspectMode' =>  'cover'
@@ -48,7 +48,7 @@ array(
 	    
       array(
         'type' =>  'text',
-        'text' =>  'เลขเด็ดงวด 1 ธันวาคม 61',
+        'text' =>  'Header',
         'size' =>  'xl',
         'weight' =>  'bold'
       ),
@@ -66,14 +66,14 @@ array(
             'contents' => array(
               array(
                 'type' =>  'text',
-                'text' =>  'รางวัลที่ 1',
+                'text' =>  'text1',
                 'weight' =>  'bold',
                 'margin' =>  'sm',
                 'flex' => 0
               ),
               array(
                 'type' =>  'text',
-                'text' =>  '146587',
+                'text' =>  'ต้องการนำตัวแปรมาแสดง',
                 'size' =>  'sm',
                 'weight' =>  'bold',
                 'align' =>  'end',
