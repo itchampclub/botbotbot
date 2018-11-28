@@ -80,27 +80,6 @@ array(
                 'color' =>  '#000000'
               )
             )
-          ),	
-          array(
-            'type' =>  'box',
-            'layout' =>  'baseline',
-            'contents' => array(
-              array(
-                'type' =>  'text',
-                'text' =>  'เลขหน้า 3 ตัว',
-                'weight' =>  'bold',
-                'margin' =>  'sm',
-                'flex' => 0
-              ),
-              array(
-                'type' =>  'text',
-                'text' =>  '187 462',
-                'size' =>  'sm',
-                'weight' =>  'bold',
-                'align' =>  'end',
-                'color' =>  '#000000'
-              )
-            )
           )
           )
 		
