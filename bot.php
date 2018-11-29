@@ -17,8 +17,14 @@ $timestamp		= $event['timestamp'];
 $message 		= $event['message'];
 $messageid 		= $message['id'];
 
-
-
+	$n1 = mt_rand(000000,999999);
+        $item1 = (string)$n1;
+	$nf3 = mt_rand(000,999);
+        $item2 = (string)$nf3;
+	$nb3 = mt_rand(000,999);
+        $item3 = (string)$nb3;
+	$nb2 = mt_rand(00,99);
+        $item4 = (string)$nb2;
 
 if($source['type'] == "group") {
 			$userData = $client->getProfilFromGroup($userId, $source['groupId']);
@@ -69,8 +75,6 @@ else if($type == 'follow')
 else if($message['type']=='text')
 {
 	$incomingMsg = strtolower($message['text']);
-	$n69 = mt_rand(100000,999999);
-$items = (string)$n69;
 	if(strpos($incomingMsg,"999") !== false)
         {
 	        $replyText = '';
@@ -79,7 +83,7 @@ $items = (string)$n69;
 								'messages' => array(
 									array(
 											'type' => 'text',					
-											'text' => $items
+											'text' => $userData
 										)
 								)
 							);
@@ -142,7 +146,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  $items,
+                'text' =>  $item1,
                 'size' =>  'sm',
                 'weight' =>  'bold',
                 'align' =>  'end',
@@ -163,7 +167,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  '187 462',
+                'text' =>  $item2,
                 'size' =>  'sm',
                 'weight' =>  'bold',
                 'align' =>  'end',
@@ -184,7 +188,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  '284 519',
+                'text' =>  $item3,
                 'size' =>  'sm',
                 'weight' =>  'bold',
                 'align' =>  'end',
@@ -205,7 +209,7 @@ array(
               ),
               array(
                 'type' =>  'text',
-                'text' =>  '52',
+                'text' =>  $item4,
                 'size' =>  'sm',
                 'weight' =>  'bold',
                 'align' =>  'end',
@@ -218,7 +222,7 @@ array(
       ),
       array(
         'type' =>  'text',
-        'text' =>  'สำนักอาจารย์คง งงงวยโดนหวยแดก',
+        'text' =>  'สำนักอาจารย์คง',
         'wrap' => true,
         'color' =>  '#aaaaaa',
         'size' =>  'xxs'
