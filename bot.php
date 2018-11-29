@@ -17,11 +17,11 @@ $timestamp		= $event['timestamp'];
 $message 		= $event['message'];
 $messageid 		= $message['id'];
 
-	$n1 = mt_rand(000000,999999);
+	$n1 = mt_rand(100000,999999);
         $item1 = (string)$n1;
-	$nf3 = mt_rand(000,999);
+	$nf3 = mt_rand(100,999);
         $item2 = (string)$nf3;
-	$nb3 = mt_rand(000,999);
+	$nb3 = mt_rand(100,999);
         $item3 = (string)$nb3;
 	$nb2 = mt_rand(00,99);
         $item4 = (string)$nb2;
@@ -77,7 +77,7 @@ else if($message['type']=='text')
 	$incomingMsg = strtolower($message['text']);
 	if(strpos($incomingMsg,"999") !== false)
         {
-	        $replyText = '';
+	        $replyText = "Hi ".$source['userId'];
 		$reply = array(
 								'replyToken' => $replyToken,														
 								'messages' => array(
